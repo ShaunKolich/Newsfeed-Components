@@ -8,9 +8,8 @@
 // Using your menuButton reference, add a click handler that calls toggleMenu
 
 const menuButton = document.querySelector(".menu-button");
-console.log(menuButton);
+// console.log(menuButton);
 // const menu = document.querySelector(".menu");
-
 
 class Menu {
   constructor(menu, menuButton) {
@@ -20,13 +19,13 @@ class Menu {
 
   }
   toggleMenu = () => {
-    console.log('Button');
+    // console.log('Button');
     this.menu.classList.toggle('menu--open');
     // Toggle the "menu--open" class on your menu refence.
 
   }
 }
 const menu = document.querySelector(".menu");
-console.log(menu);
+// console.log(menu);
 let instance1 = new Menu(menu, menuButton);
-console.log(instance1);
+// console.log(instance1);
